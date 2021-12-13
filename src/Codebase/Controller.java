@@ -1,6 +1,8 @@
 package Codebase;
 
 
+import animatefx.animation.FadeOut;
+import animatefx.animation.Wobble;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextArea;
 import com.jfoenix.controls.JFXTextField;
@@ -39,6 +41,8 @@ public class Controller {
             /**
              * Button Clicked - > Retrieves from Database
              */
+
+            new Wobble(roomOne).play();
 
         }
     }
