@@ -8,15 +8,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="Codebase.Controller" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
-      <AnchorPane fx:id="textentry" prefHeight="200.0" prefWidth="200.0">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
             <JFXTextField fx:id="textentry" labelFloat="true" layoutX="101.0" layoutY="334.0" prefHeight="27.0" prefWidth="410.0" promptText="Type here..." />
             <VBox layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <JFXButton fx:id="r1" alignment="CENTER" onAction="#handleR1" prefHeight="27.0" prefWidth="107.0" text="Room 1">
+                  <JFXButton fx:id="r1" alignment="CENTER" onAction="#handleRoomOneSwitch" prefHeight="27.0" prefWidth="107.0" text="Room 1">
                      <font>
                         <Font name="Menlo Regular" size="13.0" />
                      </font>

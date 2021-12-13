@@ -1,65 +1,80 @@
 package Codebase;
 
+
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextArea;
-import javafx.event.ActionEvent;
 import com.jfoenix.controls.JFXTextField;
-
+import javafx.animation.FadeTransition;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.layout.AnchorPane;
 
-    public class Controller {
+public class Controller {
 
-        @FXML
-        private JFXTextField textentry;
+    @FXML
+    private JFXTextField textBox;
 
-        @FXML
-        private JFXButton r1;
+    @FXML
+    private JFXButton roomOne;
 
-        @FXML
-        private JFXButton r2;
+    @FXML
+    private JFXButton roomTwo;
 
-        @FXML
-        private JFXButton r3;
+    @FXML
+    private JFXButton roomThree;
 
-        @FXML
-        private JFXButton r4;
+    @FXML
+    private JFXButton roomFour;
 
-        @FXML
-        private JFXTextArea textarea;
+    @FXML
+    private JFXTextArea textarea;
 
-        @FXML
-        private JFXButton submit;
+    @FXML
+    private JFXButton submit;
 
-        @FXML
-        void handleR1(ActionEvent event) {
+    @FXML
+    void handleRoomOneSwitch(ActionEvent event) {
 
+        if(event.getSource().equals(roomOne)){
 
-        }
-
-        @FXML
-        void handleR2(ActionEvent event) {
-
-        }
-
-        @FXML
-        void handleR3(ActionEvent event) {
+            /**
+             * Button Clicked - > Retrieves from Database
+             */
 
         }
+    }
 
-        @FXML
-        void handleR4(ActionEvent event) {
+    @FXML
+    void handleRoomTwoSwitch(ActionEvent event) {
 
-        }
-
-        @FXML
-        void handleSubmit(ActionEvent event) {
+        if(event.getSource().equals(roomTwo)){
 
         }
 
     }
 
+    @FXML
+    void handleRoomThreeSwitch(ActionEvent event) {
 
+        if(event.getSource().equals(roomThree)){
 
+        }
 
+    }
 
+    @FXML
+    void handleRoomFourSwitch(ActionEvent event) {
+
+        if(event.getSource().equals(roomFour)){
+
+        }
+
+    }
+
+    @FXML
+    void handleSubmit(ActionEvent event) {
+        if(event.getSource().equals(submit)){
+
+        }
+    }
+
+}
