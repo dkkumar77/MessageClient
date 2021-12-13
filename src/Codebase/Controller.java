@@ -52,6 +52,9 @@ public class Controller {
 
         if(event.getSource().equals(roomTwo)){
 
+            new Wobble(roomTwo).play();
+
+
         }
 
     }
@@ -61,6 +64,9 @@ public class Controller {
 
         if(event.getSource().equals(roomThree)){
 
+            new Wobble(roomThree).play();
+
+
         }
 
     }
@@ -69,6 +75,7 @@ public class Controller {
     void handleRoomFourSwitch(ActionEvent event) {
 
         if(event.getSource().equals(roomFour)){
+            new Wobble(roomFour).play();
 
         }
 
